@@ -1,0 +1,6 @@
+name = "server-service"
+compatibility_date = "2024-04-03"
+main = "./src/index.ts"
+
+[dev]
+port = 1234

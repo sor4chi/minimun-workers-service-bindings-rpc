@@ -1,0 +1,11 @@
+name = "client-service"
+compatibility_date = "2024-04-03"
+main = "./src/index.ts"
+
+[[services]]
+binding = "SERVER_SERVICE"
+service = "server-service"
+entrypoint = "ServerService"
+
+[dev]
+port = 1235

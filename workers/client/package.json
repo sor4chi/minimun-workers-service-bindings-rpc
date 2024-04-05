@@ -1,0 +1,11 @@
+{
+  "name": "workers-service-bindings-rpc-client",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "workers-service-bindings-rpc-server": "workspace:*"
+  }
+}

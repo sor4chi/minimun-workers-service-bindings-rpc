@@ -1,0 +1,13 @@
+{
+  "name": "workers-service-bindings-rpc-server",
+  "type": "module",
+  "private": true,
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  }
+}
