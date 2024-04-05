@@ -6,4 +6,9 @@ export class ServerService extends WorkerEntrypoint {
   }
 }
 
-export default {};
+export default {
+  // An error occurs when deploying this worker without register event handlers as default export.
+  async fetch() {
+    return new Response("Healthy!");
+  },
+};
