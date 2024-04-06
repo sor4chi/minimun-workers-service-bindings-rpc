@@ -1,5 +1,5 @@
 {
-  "name": "workers-service-bindings-rpc-client",
+  "name": "sample-app-client",
   "type": "module",
   "private": true,
   "scripts": {
@@ -7,6 +7,6 @@
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "workers-service-bindings-rpc-server": "workspace:*"
+    "sample-app-server": "workspace:*"
   }
 }

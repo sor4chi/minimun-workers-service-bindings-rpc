@@ -1,4 +1,4 @@
-import type { ServerService } from "workers-service-bindings-rpc-server";
+import type { ServerService } from "sample-app-server";
 
 interface Env {
   SERVER_SERVICE: Service<ServerService>;

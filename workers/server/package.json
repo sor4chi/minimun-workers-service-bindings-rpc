@@ -1,5 +1,5 @@
 {
-  "name": "workers-service-bindings-rpc-server",
+  "name": "sample-app-server",
   "type": "module",
   "private": true,
   "types": "dist/index.d.ts",

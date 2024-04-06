@@ -20,7 +20,7 @@ importers:
 
   workers/client:
     devDependencies:
-      workers-service-bindings-rpc-server:
+      sample-app-server:
         specifier: workspace:*
         version: link:../server
 
